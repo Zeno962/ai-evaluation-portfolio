@@ -1,0 +1,186 @@
+{
+  "cases": 80,
+  "matches": 64,
+  "mismatches_count": 16,
+  "agreement": 0.8,
+  "mismatch_rate": 0.2,
+  "reference_distribution": {
+    "POSITIVE": 20,
+    "NEGATIVE": 20,
+    "NEUTRAL": 20,
+    "MIXED": 20
+  },
+  "confusion_orientation": "rows=reference; columns=submitted",
+  "confusion_matrix": {
+    "POSITIVE": {
+      "POSITIVE": 16,
+      "NEGATIVE": 1,
+      "NEUTRAL": 1,
+      "MIXED": 2
+    },
+    "NEGATIVE": {
+      "POSITIVE": 2,
+      "NEGATIVE": 16,
+      "NEUTRAL": 2,
+      "MIXED": 0
+    },
+    "NEUTRAL": {
+      "POSITIVE": 2,
+      "NEGATIVE": 2,
+      "NEUTRAL": 16,
+      "MIXED": 0
+    },
+    "MIXED": {
+      "POSITIVE": 2,
+      "NEGATIVE": 2,
+      "NEUTRAL": 0,
+      "MIXED": 16
+    }
+  },
+  "per_class": {
+    "POSITIVE": {
+      "support": 20,
+      "predicted": 22,
+      "precision": 0.7272727272727273,
+      "recall": 0.8,
+      "f1": 0.7619047619047619
+    },
+    "NEGATIVE": {
+      "support": 20,
+      "predicted": 21,
+      "precision": 0.7619047619047619,
+      "recall": 0.8,
+      "f1": 0.7804878048780488
+    },
+    "NEUTRAL": {
+      "support": 20,
+      "predicted": 19,
+      "precision": 0.8421052631578947,
+      "recall": 0.8,
+      "f1": 0.8205128205128205
+    },
+    "MIXED": {
+      "support": 20,
+      "predicted": 18,
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1": 0.8421052631578947
+    }
+  },
+  "macro_f1": 0.8012526626133815,
+  "zero_division": 0,
+  "mismatches": [
+    {
+      "case_id": "Q003",
+      "submitted": "MIXED",
+      "reference": "POSITIVE",
+      "text": "I expected little, but the room was excellent.",
+      "rationale": "The negative expectation is background; the actual experience is positive."
+    },
+    {
+      "case_id": "Q004",
+      "submitted": "NEGATIVE",
+      "reference": "POSITIVE",
+      "text": "The battery no longer drains overnight; I am delighted.",
+      "rationale": "Negated problem and explicit delight convey improvement."
+    },
+    {
+      "case_id": "Q011",
+      "submitted": "MIXED",
+      "reference": "POSITIVE",
+      "text": "The ticket cost more than before, and it was worth every naira.",
+      "rationale": "A higher price is factual context; the explicit value judgment is positive."
+    },
+    {
+      "case_id": "Q012",
+      "submitted": "NEUTRAL",
+      "reference": "POSITIVE",
+      "text": "Nothing about the visit disappointed me.",
+      "rationale": "Negating disappointment expresses satisfaction."
+    },
+    {
+      "case_id": "Q021",
+      "submitted": "NEUTRAL",
+      "reference": "NEGATIVE",
+      "text": "The app crashed three times while I was saving my work.",
+      "rationale": "Repeated task-blocking crashes imply dissatisfaction under the functional-failure rule."
+    },
+    {
+      "case_id": "Q025",
+      "submitted": "POSITIVE",
+      "reference": "NEGATIVE",
+      "text": "Great, another cancelled appointment after I waited all morning.",
+      "rationale": "Great conflicts with explicit cancellation and wasted time; context supports a negative reading."
+    },
+    {
+      "case_id": "Q028",
+      "submitted": "POSITIVE",
+      "reference": "NEGATIVE",
+      "text": "The update did not fix the login failure.",
+      "rationale": "The reported failure persists after an attempted fix."
+    },
+    {
+      "case_id": "Q036",
+      "submitted": "NEUTRAL",
+      "reference": "NEGATIVE",
+      "text": "The download stopped at 90% on every attempt.",
+      "rationale": "Repeated inability to complete a download is a functional failure."
+    },
+    {
+      "case_id": "Q041",
+      "submitted": "POSITIVE",
+      "reference": "NEUTRAL",
+      "text": "The package arrived at noon.",
+      "rationale": "A timestamp alone does not express approval or disapproval."
+    },
+    {
+      "case_id": "Q048",
+      "submitted": "NEGATIVE",
+      "reference": "NEUTRAL",
+      "text": "The receipt shows a charge of NGN 5000.",
+      "rationale": "A stated amount alone does not imply a value judgment."
+    },
+    {
+      "case_id": "Q057",
+      "submitted": "POSITIVE",
+      "reference": "NEUTRAL",
+      "text": "The tracking page now says delivered.",
+      "rationale": "A status message alone is not praise."
+    },
+    {
+      "case_id": "Q060",
+      "submitted": "NEGATIVE",
+      "reference": "NEUTRAL",
+      "text": "The device has no headphone socket.",
+      "rationale": "A negated specification is not itself dissatisfaction."
+    },
+    {
+      "case_id": "Q061",
+      "submitted": "POSITIVE",
+      "reference": "MIXED",
+      "text": "The interface looks great, but it is painfully slow.",
+      "rationale": "Design is praised and speed criticized."
+    },
+    {
+      "case_id": "Q063",
+      "submitted": "NEGATIVE",
+      "reference": "MIXED",
+      "text": "Setup was easy, but the connection drops often.",
+      "rationale": "Ease is positive; recurring disconnection is a functional failure."
+    },
+    {
+      "case_id": "Q068",
+      "submitted": "NEGATIVE",
+      "reference": "MIXED",
+      "text": "The repair worked, but the final bill was unreasonable.",
+      "rationale": "Successful repair and unreasonable cost are both evaluated."
+    },
+    {
+      "case_id": "Q078",
+      "submitted": "POSITIVE",
+      "reference": "MIXED",
+      "text": "The form is easy to use, but it lost my saved entries.",
+      "rationale": "Ease is positive and data loss is an explicit functional failure."
+    }
+  ]
+}

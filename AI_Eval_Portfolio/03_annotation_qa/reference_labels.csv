@@ -1,0 +1,81 @@
+case_id,reference_label,rationale,review_priority
+Q001,POSITIVE,Ease of navigation is praised.,routine
+Q002,POSITIVE,Successful resolution expresses a favorable experience.,routine
+Q003,POSITIVE,The negative expectation is background; the actual experience is positive.,borderline
+Q004,POSITIVE,Negated problem and explicit delight convey improvement.,borderline
+Q005,POSITIVE,Negated difficulty evaluates the process positively.,borderline
+Q006,POSITIVE,Both attributes are favorable evaluations.,routine
+Q007,POSITIVE,The writer explicitly welcomes the early delivery.,routine
+Q008,POSITIVE,Clarity and engagement are positive judgments.,routine
+Q009,POSITIVE,Willingness to return conveys satisfaction.,routine
+Q010,POSITIVE,Problem resolution is a favorable outcome.,routine
+Q011,POSITIVE,A higher price is factual context; the explicit value judgment is positive.,borderline
+Q012,POSITIVE,Negating disappointment expresses satisfaction.,borderline
+Q013,POSITIVE,Helpfulness is directly praised.,routine
+Q014,POSITIVE,Appearance of the queue is context; actual service is praised.,routine
+Q015,POSITIVE,Crisp sound is a positive quality judgment.,routine
+Q016,POSITIVE,Love and reliability both express positive sentiment.,routine
+Q017,POSITIVE,Both taste and presentation are praised.,routine
+Q018,POSITIVE,A favorable comparison evaluates the current item positively.,routine
+Q019,POSITIVE,No waiting is favorable here alongside explicit praise.,routine
+Q020,POSITIVE,Exceeding expectations expresses satisfaction.,borderline
+Q021,NEGATIVE,Repeated task-blocking crashes imply dissatisfaction under the functional-failure rule.,routine
+Q022,NEGATIVE,Damage and unusability are unfavorable outcomes.,routine
+Q023,NEGATIVE,The comparison conveys disappointment in clarity.,borderline
+Q024,NEGATIVE,The writer rejects recommending a product because of a defect.,routine
+Q025,NEGATIVE,Great conflicts with explicit cancellation and wasted time; context supports a negative reading.,borderline
+Q026,NEGATIVE,Being ignored during a help request is an unfavorable experience.,routine
+Q027,NEGATIVE,Both attributes criticize the meal.,routine
+Q028,NEGATIVE,The reported failure persists after an attempted fix.,borderline
+Q029,NEGATIVE,Purchase regret and unreliability are explicit.,routine
+Q030,NEGATIVE,Confusion is a negative assessment of the lesson.,routine
+Q031,NEGATIVE,A broken expectation and discomfort express dissatisfaction.,borderline
+Q032,NEGATIVE,The negation applies to enjoyment throughout.,borderline
+Q033,NEGATIVE,The navigation task failed.,routine
+Q034,NEGATIVE,Unreasonable is an explicit negative value judgment.,routine
+Q035,NEGATIVE,Disappointment is stated directly.,routine
+Q036,NEGATIVE,Repeated inability to complete a download is a functional failure.,routine
+Q037,NEGATIVE,Too easily expresses a durability complaint.,routine
+Q038,NEGATIVE,Too late and uselessness convey dissatisfaction.,routine
+Q039,NEGATIVE,Distortion during ordinary use is an unfavorable product behavior.,routine
+Q040,NEGATIVE,Dislike is directly expressed.,routine
+Q041,NEUTRAL,A timestamp alone does not express approval or disapproval.,routine
+Q042,NEUTRAL,Scheduling information has no evaluative language.,routine
+Q043,NEUTRAL,A version identifier is factual.,routine
+Q044,NEUTRAL,The count is not a quality judgment.,routine
+Q045,NEUTRAL,A specification alone has no expressed sentiment.,routine
+Q046,NEUTRAL,A purchase and color do not establish satisfaction.,routine
+Q047,NEUTRAL,Duration is descriptive without evaluation.,routine
+Q048,NEUTRAL,A stated amount alone does not imply a value judgment.,routine
+Q049,NEUTRAL,Furniture inventory is descriptive.,routine
+Q050,NEUTRAL,Installation timing contains no outcome evaluation.,routine
+Q051,NEUTRAL,Shipping status is reported without sentiment.,routine
+Q052,NEUTRAL,Location alone does not express accessibility satisfaction.,routine
+Q053,NEUTRAL,An action is described without judging it.,routine
+Q054,NEUTRAL,No too long or favorable evaluation is expressed.,routine
+Q055,NEUTRAL,The statement reports instructions.,routine
+Q056,NEUTRAL,Color is descriptive here.,routine
+Q057,NEUTRAL,A status message alone is not praise.,routine
+Q058,NEUTRAL,A requirement is described without reaction.,routine
+Q059,NEUTRAL,A start time is factual.,routine
+Q060,NEUTRAL,A negated specification is not itself dissatisfaction.,borderline
+Q061,MIXED,Design is praised and speed criticized.,routine
+Q062,MIXED,Different product aspects receive opposing evaluations.,routine
+Q063,MIXED,Ease is positive; recurring disconnection is a functional failure.,routine
+Q064,MIXED,Service manner is positive and waiting experience negative.,routine
+Q065,MIXED,Taste is praised while portion size disappoints.,routine
+Q066,MIXED,Utility and readability receive opposing judgments.,routine
+Q067,MIXED,Like and dislike are explicit for separate aspects.,routine
+Q068,MIXED,Successful repair and unreasonable cost are both evaluated.,routine
+Q069,MIXED,Timeliness is praised and condition is negative.,routine
+Q070,MIXED,Cleanliness and comfort have opposing valence.,routine
+Q071,MIXED,Accuracy is positive; readability is negative.,routine
+Q072,MIXED,Speed is positive while relevance fails.,routine
+Q073,MIXED,Reliability and tone receive opposing judgments.,routine
+Q074,MIXED,Engagement is positive and explanation quality negative.,routine
+Q075,MIXED,Comfort is praised and material quality criticized.,routine
+Q076,MIXED,Refund appreciation coexists with dissatisfaction about tone.,routine
+Q077,MIXED,Sound quality is positive and cable length negative.,routine
+Q078,MIXED,Ease is positive and data loss is an explicit functional failure.,routine
+Q079,MIXED,Affordability and seating comfort have opposite judgments.,routine
+Q080,MIXED,Instruction clarity is positive and missing parts negative.,routine

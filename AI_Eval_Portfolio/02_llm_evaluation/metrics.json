@@ -1,0 +1,25 @@
+{
+  "pairs": 16,
+  "responses": 32,
+  "preferences": {
+    "A": 6,
+    "B": 6,
+    "TIE": 4
+  },
+  "accepted": 19,
+  "rejected": 13,
+  "critical_errors": 11,
+  "mean_by_dimension": {
+    "instruction": 1.71875,
+    "correctness": 1.28125,
+    "completeness": 1.75,
+    "clarity": 2.0
+  },
+  "candidate_mean_total": {
+    "A": 7.0625,
+    "B": 6.4375
+  },
+  "both_rejected": [
+    "L14"
+  ]
+}

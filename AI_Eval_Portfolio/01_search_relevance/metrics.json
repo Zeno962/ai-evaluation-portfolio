@@ -1,0 +1,51 @@
+{
+  "cases": 32,
+  "query_groups": 8,
+  "grade_distribution": {
+    "0": 8,
+    "1": 8,
+    "2": 8,
+    "3": 8
+  },
+  "confidence_distribution": {
+    "high": 24,
+    "medium": 8
+  },
+  "review_flagged": 14,
+  "per_query": {
+    "G01": {
+      "ndcg_at_4": 0.8428282648809379,
+      "precision_at_4": 0.5
+    },
+    "G02": {
+      "ndcg_at_4": 0.9721212198129313,
+      "precision_at_4": 0.5
+    },
+    "G03": {
+      "ndcg_at_4": 0.7591919243197319,
+      "precision_at_4": 0.5
+    },
+    "G04": {
+      "ndcg_at_4": 0.7363636171343382,
+      "precision_at_4": 0.5
+    },
+    "G05": {
+      "ndcg_at_4": 0.8354477690556398,
+      "precision_at_4": 0.5
+    },
+    "G06": {
+      "ndcg_at_4": 0.9508013338940989,
+      "precision_at_4": 0.5
+    },
+    "G07": {
+      "ndcg_at_4": 0.6806060567602009,
+      "precision_at_4": 0.5
+    },
+    "G08": {
+      "ndcg_at_4": 0.7142221296584441,
+      "precision_at_4": 0.5
+    }
+  },
+  "mean_ndcg_at_4": 0.8114477894395404,
+  "mean_precision_at_4": 0.5
+}

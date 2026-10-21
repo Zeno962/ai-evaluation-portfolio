@@ -1,0 +1,81 @@
+case_id,text,phenomenon
+Q001,The new menu is easy to navigate.,explicit_praise
+Q002,Support fixed my issue on the first call.,service_outcome
+Q003,"I expected little, but the room was excellent.",expectation
+Q004,The battery no longer drains overnight; I am delighted.,negation
+Q005,The booking process was not difficult at all.,negation
+Q006,This keyboard is quiet and comfortable.,product_quality
+Q007,"Delivery was earlier than promised, which was a welcome surprise.",delivery
+Q008,The tutor made the lesson clear and engaging.,education
+Q009,I would happily use this repair service again.,recommendation
+Q010,The update solved the freezing problem.,service_outcome
+Q011,"The ticket cost more than before, and it was worth every naira.",price_context
+Q012,Nothing about the visit disappointed me.,negation
+Q013,The instructions were surprisingly helpful.,explicit_praise
+Q014,"The queue looked long, yet I was served quickly and was pleased.",contrast
+Q015,The sound is crisp even at low volume.,product_quality
+Q016,I love how reliably the alarm works.,reliability
+Q017,The meal was delicious and well presented.,food
+Q018,"Compared with my old screen, this one is much clearer.",comparison
+Q019,"There was no waiting, and the staff were welcoming.",service
+Q020,The workshop exceeded my expectations.,expectation
+Q021,The app crashed three times while I was saving my work.,failure
+Q022,The parcel arrived broken and unusable.,failure
+Q023,The screen is not as clear as advertised.,negation
+Q024,I cannot recommend this noisy fan.,recommendation
+Q025,"Great, another cancelled appointment after I waited all morning.",sarcasm
+Q026,The staff ignored my request for help.,service
+Q027,The meal was cold and tasteless.,food
+Q028,The update did not fix the login failure.,negation
+Q029,I wish I had not bought this unreliable charger.,regret
+Q030,The lesson was confusing from start to finish.,education
+Q031,The room was smaller than promised and felt cramped.,expectation
+Q032,No part of the experience was enjoyable.,negation
+Q033,The map sent me to the wrong entrance.,failure
+Q034,The price is unreasonable for what is included.,price
+Q035,I was disappointed by the rushed consultation.,service
+Q036,The download stopped at 90% on every attempt.,failure
+Q037,The case scratches far too easily.,product_quality
+Q038,The reply arrived too late to be useful.,timeliness
+Q039,The speakers distort whenever I raise the volume.,failure
+Q040,I disliked the aggressive sales calls.,explicit_criticism
+Q041,The package arrived at noon.,factual_time
+Q042,My appointment is scheduled for Tuesday.,factual_time
+Q043,The application version is 2.1.,metadata
+Q044,The shop has three entrances.,quantity
+Q045,The battery capacity is listed as 4000 mAh.,specification
+Q046,I bought the blue model.,purchase
+Q047,The course runs for six weeks.,duration
+Q048,The receipt shows a charge of NGN 5000.,price
+Q049,The room contains a desk and two chairs.,inventory
+Q050,The update was installed yesterday.,status
+Q051,The email says the order has shipped.,status
+Q052,The cafe is on the second floor.,location
+Q053,I used the search bar to find the page.,action
+Q054,The meeting lasted 45 minutes.,duration
+Q055,The label says hand wash only.,instruction
+Q056,The replacement part is black.,attribute
+Q057,The tracking page now says delivered.,status
+Q058,A new account requires an email address.,requirement
+Q059,The training starts at 09:00.,factual_time
+Q060,The device has no headphone socket.,negation
+Q061,"The interface looks great, but it is painfully slow.",contrast
+Q062,The picture is sharp; the battery life is disappointing.,aspect_conflict
+Q063,"Setup was easy, but the connection drops often.",contrast
+Q064,"The staff were kind, although the wait was frustrating.",service
+Q065,"The meal tasted wonderful, but the portion was disappointingly small.",food
+Q066,"The lesson was useful, yet the slides were hard to read.",education
+Q067,I like the design and dislike the stiff buttons.,aspect_conflict
+Q068,"The repair worked, but the final bill was unreasonable.",price
+Q069,"Delivery was prompt, but the item arrived scratched.",delivery
+Q070,The room was clean; the bed was uncomfortable.,accommodation
+Q071,"The map is accurate, though the tiny text is difficult to read.",usability
+Q072,The search is fast but returns irrelevant results.,search
+Q073,"The alarm is reliable, but its tone is unpleasant.",product_quality
+Q074,"The workshop was engaging, but the exercises were poorly explained.",education
+Q075,"The chair is comfortable, yet the fabric feels cheap.",product_quality
+Q076,"I appreciate the refund, but the rude response upset me.",service
+Q077,"The microphone sounds clear, but the cable is annoyingly short.",aspect_conflict
+Q078,"The form is easy to use, but it lost my saved entries.",failure
+Q079,"The tickets were affordable, but the seats were uncomfortable.",price
+Q080,"The instructions are clear, although the missing screws were frustrating.",assembly
